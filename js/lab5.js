@@ -18,9 +18,9 @@ do {
     } else {
         alert('One or both entries are invalid.');
     }
-    again = prompt('Run application again? (y or n)', 'y');
+    again = prompt('Run application again? (y or n)');
     while (again !== 'y' && again !== 'n') {
-        again = prompt('Invalid input. Please enter "y" to run again or "n" to exit:', 'y');
+        again = prompt('Invalid input. Please enter "y" to run again or "n" to exit:');
     }
 } while (again === 'y');
 
